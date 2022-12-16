@@ -11,7 +11,7 @@ Original file is located at
 # !pip install --quiet --upgrade tensorflow-model-optimization
 # !pip install --quiet --upgrade nest-asyncio
 
-import nest_asyncio
+# import nest_asyncio
 nest_asyncio.apply()
 
 # !pip install tensorflow_text
