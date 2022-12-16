@@ -16,7 +16,7 @@ Original file is located at
 
 # !pip install tensorflow_text
 
-import tensorflow_text as tf_text
+# import tensorflow_text as tf_text
 
 # Commented out IPython magic to ensure Python compatibility.
 # %load_ext tensorboard
