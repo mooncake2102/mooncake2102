@@ -27,7 +27,7 @@ import numpy as np
 # import tensorflow as tf
 # import tensorflow_federated as tff
 
-from tensorflow_model_optimization.python.core.internal import tensor_encoding as te
+# from tensorflow_model_optimization.python.core.internal import tensor_encoding as te
 
 import collections
 import io
