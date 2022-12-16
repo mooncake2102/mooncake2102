@@ -38,7 +38,7 @@ import tempfile
 import zipfile
 
 # Load simulation data.
-source, _ = tff.simulation.datasets.emnist.load_data()
+# source, _ = tff.simulation.datasets.emnist.load_data()
 def client_data(n: int) -> tf.data.Dataset:
   return source.create_tf_dataset_for_client(source.client_ids[n]).map(
       lambda e: (tf.reshape(e['pixels'], [-1]), e['label'])
