@@ -12,7 +12,7 @@ Original file is located at
 # !pip install --quiet --upgrade nest-asyncio
 
 # import nest_asyncio
-nest_asyncio.apply()
+# nest_asyncio.apply()
 
 # !pip install tensorflow_text
 
