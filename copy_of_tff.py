@@ -24,8 +24,8 @@ Original file is located at
 import functools
 
 import numpy as np
-import tensorflow as tf
-import tensorflow_federated as tff
+# import tensorflow as tf
+# import tensorflow_federated as tff
 
 from tensorflow_model_optimization.python.core.internal import tensor_encoding as te
 
