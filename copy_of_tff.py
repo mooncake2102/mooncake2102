@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1b2Vs_wPhVWZRuFQPtzBr-KQZYVQAJwU9
 """
 
-pip install --quiet --upgrade tensorflow-federated-nightly
-pip install --quiet --upgrade tensorflow-model-optimization
-pip install --quiet --upgrade nest-asyncio
+pip install quiet upgrade tensorflow-federated-nightly
+pip install quiet upgrade tensorflow-model-optimization
+pip install quiet upgrade nest-asyncio
 
 import nest_asyncio
 nest_asyncio.apply()
